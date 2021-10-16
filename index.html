@@ -31,13 +31,13 @@
 <body>
     <!--navbar-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Yarn World</a>
+        <div id="navbar" class="container-fluid">
+          <a class="navbar-brand" href="#"><h2>Yarn World</h2></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <ul id="nav-item" class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
                 <a class="nav-link" href="#"><span class="menu-item">Knit</span></a>
               </li>
@@ -46,9 +46,6 @@
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#"><span class="menu-item">Weave</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#"><span class="menu-item">Choose Language</span></a>
               </li>
             </ul>
             <form class="d-flex">
@@ -62,6 +59,11 @@
     <div id="welcome">
         <h1>Welcome!</h1>
         <h3>Something witty about yarn</h3>
+    </div>
+
+    <!--image-->
+    <div id="yarnball">
+      <img src="images/yarn ball.png" class="img-fluid">
     </div>
     <!--cards-->
     <div class="flex-container">
@@ -88,7 +90,7 @@
         <img src="..." class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Weave</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <p class="card-text">Some text here</p>
           <a href="#" class="btn btn-primary">Thread the loom</a>
         </div>
       </div>

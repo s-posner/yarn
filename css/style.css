@@ -8,3 +8,25 @@
 
 }
 
+#navbar {
+    background-color: #c4c4c4;
+}
+
+.navbar {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.menu-item {
+    color: black;
+}
+
+#yarnball {
+    margin-bottom: 5%;
+}
+
+#welcome {
+    margin-top: 5%;
+    margin-bottom: -7%;
+    margin-left: 10%;
+}
