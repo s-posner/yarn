@@ -30,3 +30,26 @@
     margin-bottom: -7%;
     margin-left: 10%;
 }
+
+.card {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 10%;
+}
+
+.btn {
+    background-color: #c4c4c4;
+    border-radius: 0%;
+    border: white;
+    color: black;
+}
+
+#searchbtn {
+    background-color: black;
+    color: white;
+}
+
+#searchfrm {
+    border-radius: 0%;
+    border: white;
+}
